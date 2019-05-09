@@ -54,7 +54,7 @@ Once the server boots up, it should listen on port **8080** by default.
 
 3. #### Create Account
 * Method : `POST`
-* URL : `/api/transfer/create
+* URL : `/api/transfer/create`
 * Example Data :
 ```javascript
 {
@@ -63,7 +63,7 @@ Once the server boots up, it should listen on port **8080** by default.
 }
 ```
 * Output :
-```
+```javascript
 {
     "message": "Account Created",
     "data": {
